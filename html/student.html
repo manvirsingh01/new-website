@@ -4,73 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/studentstyle.css">
+    <link rel="stylesheet" href="/css/student.css">
     <title>Student</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="/html/student.html">Name of student</a>
-            <ul>
-                <li>
-                    <a href="/html/request.html">Request outpass</a>
-                </li>
-                <li>
-                    <a href="/html/dashboard.html">dashboard</a>
-                </li>
-            </ul>
-            <a href="/html/login.html">login</a>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Student Name</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Request Outpass</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section -->
     <main>
-        <section>
-            <h2>previous outpass</h2>
+        <!-- Previous Outpasses Block -->
+        <section class="previous-outpasses">
+            <h2>Previous Outpasses</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Name </th>
+                        <th>Name</th>
                         <th>Group</th>
-                        <th>date</th>
-                        <th>time out </th>
-                        <th>time in </th>
-                        <th>reamark</th>
+                        <th>Out Time</th>
+                        <th>In Time</th>
+                        <th>Date</th>
+                        <th>Reason</th>
+                        <th>Remark</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Data 1</td>
-                        <td>Data 2</td>
-                        <td>Data 3</td>
-                        <td>Data 1</td>
-                        <td>Data 2</td>
-                        <td>Data 3</td>
+                        <td>John Doe</td>
+                        <td>Group A</td>
+                        <td>10:00 AM</td>
+                        <td>6:00 PM</td>
+                        <td>2024-10-01</td>
+                        <td>Family Visit</td>
+                        <td>Approved</td>
                     </tr>
                     <tr>
-                        <td>Data 4</td>
-                        <td>Data 5</td>
-                        <td>Data 6</td>
-                        <td>Data 4</td>
-                        <td>Data 5</td>
-                        <td>Data 6</td>
+                        <td>Jane Smith</td>
+                        <td>Group B</td>
+                        <td>12:00 PM</td>
+                        <td>8:00 PM</td>
+                        <td>2024-10-05</td>
+                        <td>Medical</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Mark Wilson</td>
+                        <td>Group C</td>
+                        <td>9:00 AM</td>
+                        <td>5:00 PM</td>
+                        <td>2024-10-10</td>
+                        <td>Shopping</td>
+                        <td>Approved</td>
                     </tr>
                 </tbody>
             </table>
         </section>
-        <section>
-            <div>
-                <a href="/html/request.html">Request outpass</a>
-            </div>
-        </section>
-        <section>
-            <h2>Satus</h2>
-        </section>
 
+        <!-- Status Bar Block -->
+        <section class="stats-bar">
+            <h2>Request Status</h2>
+            <p>Current Status: <strong>Pending</strong></p>
+            <p>Next Step: <strong>Approval from Warden</strong></p>
+            <a href="#" class="request-button">Request New Outpass</a>
+        </section>
     </main>
+
+    <!-- Footer -->
     <footer>
-        <footer>
-            <h2>Created by NextGen</h2>
-        </footer>
+        &copy; 2024 Created by NextGen
     </footer>
 </body>
 
