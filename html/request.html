@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outpass Request Form</title>
+    <link rel="stylesheet" href="/css/request.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Outpass Request Form</h2>
+        <form action="/submit-outpass" method="POST">
+
+            <!-- Section 1: Student Information -->
+            <section>
+                <div class="section-heading">Student Information</div>
+
+                <div class="form-group">
+                    <label for="name">Student's Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="rollNumber">Roll Number:</label>
+                    <input type="number" id="rollNumber" name="rollNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="coursename">course name:</label>
+                    <input type="number" id="coursename" name="coursename" required>
+                </div>
+            </section>
+
+            <!-- Section 2: Reason for Outpass -->
+            <section>
+                <div class="section-heading">Reason for Outpass</div>
+                <div class="form-group">
+                    <label for="reason">Reason for Outpass:</label>
+                    <textarea id="reason" name="reason" rows="4" required></textarea>
+                </div>
+            </section>
+
+            <!-- Section 3: Leaving Details -->
+            <section>
+                <div class="section-heading">Leaving Details</div>
+
+                <div class="form-group">
+                    <label for="leaveDate">Date of Leaving:</label>
+                    <input type="date" id="leaveDate" name="leaveDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="leaveTime">Time of Leaving:</label>
+                    <input type="time" id="leaveTime" name="leaveTime" required>
+                </div>
+            </section>
+
+            <!-- Section 4: Returning Details -->
+            <section>
+                <div class="section-heading">Returning Details</div>
+
+                <div class="form-group">
+                    <label for="returnDate">Date of Return:</label>
+                    <input type="date" id="returnDate" name="returnDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="returnTime">Time of Return:</label>
+                    <input type="time" id="returnTime" name="returnTime" required>
+                </div>
+            </section>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>

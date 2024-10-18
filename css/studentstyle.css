@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    justify-content: center;
+    /* Centers the nav items horizontally */
+    list-style-type: none;
+    /* Removes bullet points from list items */
+    padding: 10px;
+    margin: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    position: relative;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    padding-left: 70px;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+
+}
+main h2{
+    position: relative;
+    text-align: center;
+    margin: 60px;
+}
+
+main table {
+    border: 2px solid black;
+    /* Adds border around the entire table */
+    border-collapse: collapse;
+    /* Ensures there is no space between table cells */
+    width: 100%;
+    /* Optional: Makes the table span the full width */
+}
+
+th,
+td {
+    border: 1px solid black;
+    /* Adds border around each table cell */
+    padding: 10px;
+    /* Adds space inside the cells */
+    text-align: left;
+    /* Aligns text to the left */
+}
+footer{
+    display: flex;
+    justify-content: center;
+    /* Centers the nav items horizontally */
+    list-style-type: none;
+    /* Removes bullet points from list items */
+
+}
+footer ul {
+    justify-content: center;
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+    padding: 40px;
+    margin-left: 200px;
+}
+ footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 40px;
+
+ }
+footer h2{
+    margin-top:90px ;
+}
