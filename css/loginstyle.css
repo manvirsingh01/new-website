@@ -4,6 +4,9 @@ body{
     justify-content: center;
     flex-direction:column ;
     gap: 60px;
+    font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
     
 }
 
