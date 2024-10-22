@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Navigation Bar (Header) */
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3b6b3;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.navbar span, .navbar a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Previous Outpass Section */
+.previous-outpass {
+    margin-top: 20px;
+}
+
+.previous-outpass h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #94413c;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    background-color: #d36b67;
+    color: white;
+}
+
+.show-more {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: #94413c;
+    text-decoration: none;
+}
+
+/* Outpass Status Section */
+.outpass-status {
+    margin-top: 30px;
+}
+
+.outpass-status h2 {
+    margin-bottom: 10px;
+}
+
+.status-timeline {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3e4e4;
+    padding: 10px;
+    border-radius: 10px;
+    color: #94413c;
+    font-weight: bold;
+}
+
+.status-timeline span {
+    position: relative;
+}
+
+.status-timeline span::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #94413c;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+.status-timeline span:last-child::after {
+    display: none;
+}
+
+/* Request Outpass Button */
+.request-outpass {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.request-outpass button {
+    background-color: #94413c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.request-outpass button:hover {
+    background-color: #b24f4a;
+}
+
+/* Profile Section */
+.profile {
+    margin-top: 30px;
+}
+
+.profile h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    color: #94413c;
+}
+
+form input {
+    padding: 8px;
+    border: 1px solid #94413c;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #94413c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b24f4a;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #d3b6b3;
+    color: white;
+    border-radius: 10px;
+}
+1

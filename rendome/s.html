@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outpass System</title>
+    <link rel="stylesheet" href="/rendome/s.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <span>Name of student</span>
+            <a href="#">Request Outpass</a>
+            <a href="#">Profile</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Previous Outpass Section -->
+        <section class="previous-outpass">
+            <h2>Previous Outpass</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Group</th>
+                        <th>Date</th>
+                        <th>Out Time</th>
+                        <th>In Time</th>
+                        <th>Reason</th>
+                        <th>Remark</th>
+                        <th>Security In</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- You can add rows dynamically here -->
+                    <tr>
+                        <td>1</td>
+                        <td>Group A</td>
+                        <td>01/10/2024</td>
+                        <td>10:00 AM</td>
+                        <td>02:00 PM</td>
+                        <td>Personal</td>
+                        <td>Approved</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#" class="show-more">Show more...</a>
+        </section>
+
+        <!-- Outpass Status Section -->
+        <section class="outpass-status">
+            <h2>Outpass Status</h2>
+            <div class="status-timeline">
+                <span>Outpass Application</span>
+                <span>Teacher Approved</span>
+                <span>Application Approved by Teacher</span>
+                <span>Security Guard Approve</span>
+                <span>Out Time</span>
+                <span>In Time</span>
+            </div>
+        </section>
+
+        <!-- Request Outpass Section -->
+        <section class="request-outpass">
+            <button>New Request Outpass</button>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="profile">
+            <h2>Profile</h2>
+            <form>
+                <label>Name</label>
+                <input type="text" name="name">
+                
+                <label>Email</label>
+                <input type="email" name="email">
+                
+                <label>Course</label>
+                <input type="text" name="course">
+                
+                <label>Roll No.</label>
+                <input type="text" name="roll">
+                
+                <label>Semester</label>
+                <input type="text" name="semester">
+                
+                <label>Parent's Phone Number</label>
+                <input type="text" name="parent_phone">
+                
+                <label>Phone Number</label>
+                <input type="text" name="phone">
+                
+                <button type="submit">Save</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Outpass Management System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
